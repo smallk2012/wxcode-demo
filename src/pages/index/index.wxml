@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="usermotto">
+        <text class="user-motto">{{motto}}</text>
+    </view>
+    <view class="usermotto">
+        <text class="user-motto">登录</text>
+    </view>
+</view>
+<dialog-auth wx:if="{{showAuth}}"/>

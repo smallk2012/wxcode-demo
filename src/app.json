@@ -1,0 +1,16 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/login/index"
+    ],
+    "usingComponents": {
+        "dialog-auth": "components/dialog-auth/index"
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json"
+}
